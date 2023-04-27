@@ -1,0 +1,38 @@
+EMPLOYEE TURNOVER dataset
+
+This Employee Turnover dataset is a real dataset shared from Edward Babushkin's blog used to predict an Employee's risk of quitting (with a Survival Analysis Model). Edward Babushkin explained that "Survival Analysis is one of the most importance but it's not the most popular algorithm to predict employee turnover. Analysts use more familiar algorithms like Logistic Regression but, for example, Pasha Roberts writes: 'Don't use logistic methods to predict attrition!'. I think that we can only apply for a short-term situation like whether the employee has worked more or less than three months. If our goal is to predict individual quitting risks, then the best method is Survival Analysis."
+Acknowledgements:
+
+All credit goes to Edward Babushkin for sharing this useful dataset.
+
+COLUMNS
+
+stag
+Experience (time)
+
+event
+Employee turnover
+
+gender
+Employee's gender, female(f), or male(m)
+
+
+industry
+Employee's Industry
+
+
+traffic
+From what pipelene employee came to the company. You contacted the company directly (after learning from advertising, knowing the company's brand, etc.) - advert You contacted the company directly on the recommendation of your friend - NOT an employee of this company-recNErab You contacted the company directly on the recommendation of your friend - an employee of this company - referal You have applied for a vacancy on the job site - youjs The recruiting agency brought you to the employer - KA Invited by the Employer, we knew him before the employment - friends The employer contacted you on the recommendation of a person who knows you - rabrecNErab The employer reached you through your resume on the job site - 
+
+Presence of a coach (training) on probation
+no60%
+my head28%
+Other (132)12%
+
+head_gender
+head (supervisor) gender
+
+greywage
+The salary does not seem to the tax authorities. Greywage in Russia or Ukraine means that the employer (company) pay just a tiny bit amount of salary above the white-wage (white-wage means minimum wage)
+
+
